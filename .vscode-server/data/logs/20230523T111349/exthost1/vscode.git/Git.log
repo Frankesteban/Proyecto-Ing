@@ -1,0 +1,27 @@
+2023-05-23 11:13:56.786 [info] Log level: Info
+2023-05-23 11:13:56.786 [info] Validating found git in: "git"
+2023-05-23 11:13:56.786 [info] Using git "2.34.1" from "git"
+2023-05-23 11:13:56.786 [info] > git rev-parse --show-toplevel [159ms]
+2023-05-23 11:13:56.786 [info] > git rev-parse --git-dir --git-common-dir [105ms]
+2023-05-23 11:13:56.786 [info] Open repository: /home/frank
+2023-05-23 11:13:56.786 [info] > git rev-parse --show-toplevel [42ms]
+2023-05-23 11:13:56.790 [info] > git config --get commit.template [38ms]
+2023-05-23 11:13:56.796 [info] > git rev-parse --show-toplevel [26ms]
+2023-05-23 11:13:56.844 [info] > git rev-parse --show-toplevel [21ms]
+2023-05-23 11:13:56.866 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [26ms]
+2023-05-23 11:13:56.888 [info] > git rev-parse --show-toplevel [23ms]
+2023-05-23 11:13:56.902 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-23 11:13:56.920 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-23 11:13:56.946 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-23 11:13:56.960 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-23 11:13:57.230 [info] > git show --textconv :web.html [19ms]
+2023-05-23 11:13:57.238 [info] > git ls-files --stage -- /home/frank/web.html [15ms]
+2023-05-23 11:13:57.329 [info] > git check-ignore -v -z --stdin [18ms]
+2023-05-23 11:13:57.334 [info] > git cat-file -s 13bfe645f3b91001a5350fbf5d75ad9f12dc058e [80ms]
+2023-05-23 11:13:58.220 [info] > git status -z -uall [1335ms]
+2023-05-23 11:14:01.017 [info] > git config --get commit.template [107ms]
+2023-05-23 11:14:01.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2023-05-23 11:14:01.215 [info] > git status -z -uall [145ms]
+2023-05-23 14:53:43.618 [info] > git config --get commit.template [41ms]
+2023-05-23 14:53:43.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [38ms]
+2023-05-23 14:53:44.160 [info] > git status -z -uall [518ms]
